@@ -1,4 +1,4 @@
-package com.example.triptogather;
+package com.surup.triptogather;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

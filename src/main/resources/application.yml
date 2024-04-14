@@ -1,0 +1,24 @@
+debug: false
+management.endpoints.web.exposure.include: "*"
+
+logging:
+  level:
+    com.surup.websocket_chat: debug
+    org.springframework.web.servlet: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+spring:
+  application:
+    name: TripTogather
+  datasource:
+    url: jdbc:mysql://localhost:3306/triptogather
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
