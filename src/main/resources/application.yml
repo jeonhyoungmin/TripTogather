@@ -12,8 +12,8 @@ spring:
     name: TripTogather
   datasource:
     url: jdbc:mysql://localhost:3306/triptogather
-    username:
-    password:
+    username: surup
+    password: dk52#@ks!5dmx!@flsek
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
